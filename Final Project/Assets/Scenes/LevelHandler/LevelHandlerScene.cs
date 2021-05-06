@@ -27,7 +27,7 @@ namespace RunAndJump {
 			Lose,
 		}
 
-		private const int TOTAL_LIVES = 4;
+		private const int TOTAL_LIVES = 7;
 		private const int COIN_SCORE = 100;
 		private const int TREASURE_SCORE = 1000;
 
