@@ -98,7 +98,7 @@ namespace RunAndJump {
 
 			HideAllThePanels ();
 			GameInfo.gameObject.SetActive(true);
-			VirtualInput.gameObject.SetActive(true);
+			VirtualInput.gameObject.SetActive(false);
 			HintMessage.gameObject.SetActive(true);
 			UpdateGameInfoUI();
 			InputWrapper.Instance.EnableInput (true);
